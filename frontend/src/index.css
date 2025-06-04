@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+:root {
+  --accent: orangered;
+}
+
+.light {
+  --bg: #ffffff;
+  --text: #222;
+}
+
+.dark {
+  --bg: #222;
+  --text: #eee;
+}
+
+header, nav, .login, button, input {
+  margin: 0.25rem;
+}
+
+button {
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+a {
+  color: var(--accent);
+}
